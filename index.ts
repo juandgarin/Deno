@@ -9,7 +9,7 @@ console.log("Hello from Functions!")
 serve((_req) => {
     /*   const { name } = await req.json() */
     const data = {
-        message: `Hello - Modificado !!!`,
+        message: `Hello - so fast !!!`,
     }
 
     return new Response(
